@@ -1,4 +1,5 @@
 (function () {
+    var root = this;
     function translit(str, typ) {
         var func = (function (typ) {
             /** Function Expression
