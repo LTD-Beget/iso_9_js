@@ -18,20 +18,6 @@
   "bugs": {
     "url": "https://github.com/xguest/iso_9_js/issues"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/xguest/iso_9_js.git"
-  },
-  "devDependencies": {
-    "coveralls": "^2.11.9",
-    "jscoverage": "^0.6.0",
-    "mocha": "^2.4.5",
-    "mocha-lcov-reporter": "1.2.0"
-  },
   "license": "GPL-3.0",
-  "readmeFilename": "README.md",
-  "scripts": {
-    "test": "mocha --reporter spec --bail test/*.js",
-    "test-cov": "jscoverage translit.js translit-cov.js &&set NPM_COV=1 &&mocha -R html-cov > coverage.html&&set NPM_COV="
-  }
+  "readmeFilename": "README.md"
 }
